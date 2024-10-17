@@ -74,7 +74,7 @@
       <bpmn:incoming>Flow_0ojehew</bpmn:incoming>
       <bpmn:outgoing>Flow_06ku8y5</bpmn:outgoing>
     </bpmn:task>
-    <bpmn:task id="Activity_1y4abds" name="Kiểm tra hồ sơ">
+    <bpmn:task id="Activity_1y4abds" name="Kiểm trâ hồ sơ">
       <bpmn:incoming>Flow_03kw8ed</bpmn:incoming>
       <bpmn:outgoing>Flow_1vglvsy</bpmn:outgoing>
     </bpmn:task>
