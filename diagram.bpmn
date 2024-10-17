@@ -201,7 +201,6 @@
     <bpmn:sequenceFlow id="Flow_1vglvsy" sourceRef="Activity_1y4abds" targetRef="Gateway_1socmcz" />
     <bpmn:sequenceFlow id="Flow_1v7br1k" sourceRef="Activity_0izpad1" targetRef="Activity_1jctqvw" />
     <bpmn:sequenceFlow id="Flow_0j7889t" name="Chưa đầy đủ" sourceRef="Gateway_1socmcz" targetRef="Activity_0izpad1" />
-    <bpmn:sequenceFlow id="Flow_0j3q161" name="Đầy đủ" sourceRef="Gateway_1socmcz" targetRef="Activity_1twnvf3" />
     <bpmn:sequenceFlow id="Flow_0tsfi1h" sourceRef="Activity_1twnvf3" targetRef="Gateway_05l8hf7" />
     <bpmn:sequenceFlow id="Flow_02p03vv" sourceRef="Gateway_05l8hf7" targetRef="Activity_1y1gya9" />
     <bpmn:sequenceFlow id="Flow_0s6kntw" sourceRef="Activity_1y1gya9" targetRef="Activity_17j0hix" />
@@ -227,6 +226,7 @@
     <bpmn:sequenceFlow id="Flow_13emczp" sourceRef="Activity_1o1zwcb" targetRef="Activity_0e6bgm2" />
     <bpmn:sequenceFlow id="Flow_1lbd815" sourceRef="Activity_0e6bgm2" targetRef="Activity_1e1lvm9" />
     <bpmn:sequenceFlow id="Flow_15cvyc8" sourceRef="Activity_1e1lvm9" targetRef="Event_1iexohc" />
+    <bpmn:sequenceFlow id="Flow_0j3q161" name="Đầy đủ" sourceRef="Gateway_1socmcz" targetRef="Activity_1twnvf3" />
   </bpmn:process>
   <bpmndi:BPMNDiagram id="BPMNDiagram_1">
     <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="Collaboration_1be2smx">
